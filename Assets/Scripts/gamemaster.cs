@@ -23,12 +23,12 @@ public class gamemaster : MonoBehaviour {
 	void Update () {
         if (flag)
         {
-            if (score.tscore > 3000)
+            if (score.tscore > 500)
             {
                 gameObject.GetComponent<move>().enabled = false;
                 gameObject.GetComponent<moveround>().enabled = true;
             }
-            else if (score.tscore > 1500)
+            else if (score.tscore > 100)
             {
                 gameObject.GetComponent<move>().enabled = true;
             }
@@ -38,13 +38,13 @@ public class gamemaster : MonoBehaviour {
         {
             PlayerPrefs.Save();
 
-            GameObject.Find("bluebobble").SetActive(false);
-            GameObject.Find("redbouble").SetActive(false);
+            GameObject.Find("bluebubble").SetActive(false);
+            GameObject.Find("redbubble").SetActive(false);
             GameObject.Find("greenbubble").SetActive(false);
             GameObject.Find("yellowbubble").SetActive(false);
             GameObject.Find("whitebubble").SetActive(false);
             GameObject.Find("pinkbubble").SetActive(false);
-            GameObject.Find("purplebobble").SetActive(false);
+            GameObject.Find("purplebubble").SetActive(false);
             flag = false;
             pauseplay.isPaused = true;
             if (rewindcount > 0)

@@ -39,12 +39,12 @@ public class gamemaster : MonoBehaviour {
             PlayerPrefs.Save();
 
             GameObject.Find("bluebobble").SetActive(false);
-            GameObject.Find("redbobble").SetActive(false);
+            GameObject.Find("redbouble").SetActive(false);
             GameObject.Find("greenbubble").SetActive(false);
-            GameObject.Find("pinkbobble (1)").SetActive(false);
             GameObject.Find("yellowbubble").SetActive(false);
-            GameObject.Find("Transparent_Bubble_PNG_Clip_Art_Image").SetActive(false);
-            GameObject.Find("pinkbobble").SetActive(false);
+            GameObject.Find("whitebubble").SetActive(false);
+            GameObject.Find("pinkbubble").SetActive(false);
+            GameObject.Find("purplebobble").SetActive(false);
             flag = false;
             pauseplay.isPaused = true;
             if (rewindcount > 0)

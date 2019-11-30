@@ -26,7 +26,7 @@ public class OnTouch : MonoBehaviour {
                 score.tscore += 5*mul;
                 GameObject.Find("greenbar").GetComponent<Image>().fillAmount += 0.03f;
             }
-            else if (GameObject.Find("redbobble").GetComponent<tap>().istapped)
+            else if (GameObject.Find("redbouble").GetComponent<tap>().istapped)
             {
                 if (!GameObject.Find("free").GetComponent<ontuch>().free)
                 {

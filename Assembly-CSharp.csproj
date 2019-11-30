@@ -44,7 +44,8 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\Scripts\boostersscreen\booster_controller.cs" />
+  <ItemGroup>     <Compile Include="Assets\BubbleBlast.cs" />
+     <Compile Include="Assets\Scripts\boostersscreen\booster_controller.cs" />
      <Compile Include="Assets\Scripts\boostersscreen\buydouble.cs" />
      <Compile Include="Assets\Scripts\boostersscreen\buyfree.cs" />
      <Compile Include="Assets\Scripts\boostersscreen\discoins.cs" />

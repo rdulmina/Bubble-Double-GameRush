@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/BubblePop_Effect/_Scenes/BubblePopEffect_Example.unity
+- path: Assets/Homescreen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

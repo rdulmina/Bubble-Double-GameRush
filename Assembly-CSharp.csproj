@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\boostersscreen\rewind.cs" />
      <Compile Include="Assets\Scripts\boostersscreen\usestartupboost.cs" />
      <Compile Include="Assets\Scripts\coin.cs" />
+     <Compile Include="Assets\Scripts\damageAndHeal.cs" />
      <Compile Include="Assets\Scripts\doublebooster\ontuchbooster.cs" />
      <Compile Include="Assets\Scripts\freebooster\ontuch.cs" />
      <Compile Include="Assets\Scripts\gamemaster.cs" />

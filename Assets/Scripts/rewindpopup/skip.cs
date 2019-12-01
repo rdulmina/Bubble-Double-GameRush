@@ -6,7 +6,7 @@ public class skip : MonoBehaviour {
 
 	// Use this for initialization
     public void onclick()
-    {
+    {   print("skiped");
         SceneManager.LoadScene("Gameover");
     }
 }

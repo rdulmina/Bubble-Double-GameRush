@@ -14,7 +14,7 @@ public class ontuch : MonoBehaviour {
     public AudioSource sound;
 	// Use this for initialization
 	void Start () {
-        score.freecount = PlayerPrefs.GetInt(freecountKey, 0);
+        score.freecount = PlayerPrefs.GetInt(freecountKey, 2);
 
 	}
 	

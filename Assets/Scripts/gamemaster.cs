@@ -23,12 +23,12 @@ public class gamemaster : MonoBehaviour {
 	void Update () {
         if (flag)
         {
-            if (score.tscore > 500)
+            if (score.tscore > 600)
             {
                 gameObject.GetComponent<move>().enabled = false;
                 gameObject.GetComponent<moveround>().enabled = true;
             }
-            else if (score.tscore > 100)
+            else if (score.tscore > 300)
             {
                 gameObject.GetComponent<move>().enabled = true;
             }

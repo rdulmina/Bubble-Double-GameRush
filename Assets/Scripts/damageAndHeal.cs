@@ -21,7 +21,7 @@ public class damageAndHeal : MonoBehaviour
         // gameObject.GetComponent<tap>().istapped = false;
     }
      void Update() {
-        damagedImg.color=Color.Lerp(damagedImg.color,Color.clear,Time.deltaTime*.5f);
+        damagedImg.color=Color.Lerp(damagedImg.color,Color.clear,Time.deltaTime*.3f);
     }
 
 }

@@ -19,15 +19,17 @@ public class PopUpWindow : MonoBehaviour {
 	}
     public void show(string msg) {
        
-        window.SetActive(true);
+        // window.SetActive(true);
 
     
     }
     public void hide() {
-        window.SetActive(true);
+        print('k');
+        window.SetActive(false);
     
     }
     public void gohome() {
+        print('k');
         pauseplay.isPaused = false;
         score.tscore = 0;
         SceneManager.LoadScene("HomeScreen");

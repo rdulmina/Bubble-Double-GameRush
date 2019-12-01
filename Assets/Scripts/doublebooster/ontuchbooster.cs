@@ -14,7 +14,7 @@ public class ontuchbooster : MonoBehaviour {
 	// Use this for initialization
     void Start()
     {
-        doublecount = PlayerPrefs.GetInt(dobleKey, 0);
+        doublecount = PlayerPrefs.GetInt(dobleKey, 3);
         disdouble.text = doublecount.ToString();
     }
     void Update()
